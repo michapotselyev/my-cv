@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url(./reset-css.css);
+
+/* #region body */
+body {
+    margin: 10px;
+    max-width: 595px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    box-shadow: 7px 7px 40px -6px rgba(0,0,0,1);
+}
+/* #endregion */
+
+/* #region header */
+.header {
+    padding: 32px 40px 24px 40px;
+    color: white;
+    background-color: #E25544;
+}
+
+.my_name {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.my_role {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.my_photo {
+    width: 114px;
+    height: 114px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    float: right;
+}
+/* #endregion */
+
+/* #region main */
+.main {
+    padding: 0 40px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    line-height: 63px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #DEE2ED;
+}
+
+.contacts_link {
+    text-decoration: none;
+    color:black
+}
+
+.experience, .education, .skills {
+    display: flex;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #DEE2ED;
+}
+
+.tools {
+    display: flex;
+}
+
+.experience_title, .education_title, .skills_title, .tools_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #E25544;
+}
+
+.experience_parts {
+    margin-left: 50px;
+    color: #485268;
+}
+
+.education_parts {
+    margin-left: 60px;
+    color: #485268;
+}
+
+.skills_parts, .tools_parts {
+    display: flex;
+    margin-left: 112px;
+    color: #485268;
+}
+
+.experience_part, .education_part, .skills_part, .tools_part {
+    padding-left: 8px;
+    margin-bottom: 24px;
+    border-left: 1px dashed #DEE2ED;
+}
+
+.skills_part, .tools_part {
+    width: 170px;
+}
+
+.experience_part_title, .education_part_title, .skills_part_title {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    margin-bottom: 8px;
+}
+
+.main_word {
+    font-weight: 500;
+}
+/* #endregion */
